@@ -1,0 +1,22 @@
+{
+  "name": "crypto-trading-mcp",
+  "version": "1.0.0",
+  "requestShape": {
+    "tool": "string",
+    "input": "object",
+    "auth": "jwt"
+  },
+  "responseShape": {
+    "success": "boolean",
+    "tool": "string",
+    "data": "object",
+    "error": "string|null"
+  },
+  "tools": [
+    "price",
+    "orderbook",
+    "candles",
+    "trade",
+    "signal"
+  ]
+}
